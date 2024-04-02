@@ -1,0 +1,59 @@
+.action-button {
+    background-color: #4e37d8 !important;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+    width: 180px;
+}
+
+.pagination_wrapper {
+    width: 100%;
+}
+
+.pokemon_entries_grid_view {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto auto auto;
+}
+
+.pokemon_entries_list_view {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto;
+}
+
+.pagination-list {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: auto;
+}
+
+
+.pagination-buttons-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 50px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.pagination_text {
+    font-family: emoji;
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    /* media query for tablets */
+    .pokemon_entries_grid_view {
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media (max-width: 600px) {
+    /* media query for phones */
+    .pokemon_entries_grid_view {
+        grid-template-columns: auto auto;
+    }
+}

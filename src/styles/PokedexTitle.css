@@ -1,0 +1,9 @@
+.pokedex_title {
+    width: 100%;
+    align-content: center;
+    margin-top: 2%;
+}
+
+.pokedex_image {
+    width: 250px;
+}
